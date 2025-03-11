@@ -254,6 +254,18 @@ section.modulo.parallax{
     background-position: 50% 50%;
     }
 
+    /* CURIOSIDADES */
+
+    .card-curiosidade{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .card-curiosidade p{
+        font-size: 2em;
+    }
 
 }
     /* GALERIA */
@@ -512,6 +524,34 @@ section.modulo.parallax{
 
 
 
+/* CURIOSIDADES */
+
+.titulo-curiosidade h1{
+    margin-top: 2em;
+    color: var(--gold);
+    font-family: Nunito;
+    font-size: 3em;
+    text-align: center;
+}
+
+.card-curiosidade{
+    margin-bottom: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid var(--gold);
+}
+
+.card-curiosidade p{
+    color: white;
+    padding: 1.5em;
+    font-size: 1.3em;
+    font-family: Roboto;
+}
+
+.img-curiosidade img{
+    width: 100%;
+}
 
 
 /* GALERIA DE IMAGENS */
