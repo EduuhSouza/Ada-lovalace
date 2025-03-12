@@ -361,15 +361,6 @@ section.modulo.parallax{
     font-size: 2em;
 }
 
-.intro-timeline{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    color: white;
-    font-family: Nunito;
-    font-size: 1em; 
-}
-
 
 .timeline{
     position: relative;
@@ -381,7 +372,7 @@ section.modulo.parallax{
 .timeline::after{
     content: '';
     position: absolute;
-    max-height: 24rem;
+    max-height: 29rem;
     width: 6px;
     background-color: var(--gold);
     top: 0;
@@ -398,6 +389,10 @@ section.modulo.parallax{
 }
 
 .container h2{
+    font-family: Nunito;
+}
+
+.container h4{
     font-family: Nunito;
 }
 
@@ -472,7 +467,7 @@ section.modulo.parallax{
 /* Relevancia */
 
 .titulo-relevancia h1{
-    border-top: solid var(--gold);
+    border-top: white;
     padding: 1em;
     margin-top: 3em;
     color: white;
